@@ -1,0 +1,78 @@
+body{
+background-image: url("assets/background.svg");
+background-attachment: fixed;
+
+}
+
+h1{
+    font-family: futura-pt, sans-serif;
+    font: size 25px;
+    letter-spacing: 1.3mm;
+    font-weight: 600;
+    color: #5d5c4a;
+}
+
+
+h2{
+    font-family: futura-pt, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #5d5c4a;
+}
+
+h3{
+    font-family: futura-pt, sans-serif; 
+    font-size: 13px;
+    line-height: 2mm;
+    font-weight: 100;
+    color: #5d5c4a;
+
+}
+
+.header{
+   position:relative; left: 50px; top:40px;
+   line-height: 70%;
+   
+}
+.contact{
+    position: relative; left: 50px; top: 40px;
+    
+}
+.education{
+    position: relative; left: 50px; top: 80px;
+}
+
+.experience{
+    position: relative; left: 50px; top: 0px;
+}
+
+.skills{
+    position:relative; left: 600px; top: -55px;
+}
+
+.awards{
+    position: relative; left: 600px; top: -190px;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .skills {
+      position: relative; left: 50px; top: 310px;
+      
+    }
+
+    .awards {
+        position: relative; left: 50px; top: 174px;
+       
+    }
+    .header{
+        text-align: center;
+        line-height: 90%;
+        
+    }
+    .contact{
+        text-align: center;
+    }
+
+    
+  }
